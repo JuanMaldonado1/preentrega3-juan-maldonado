@@ -1,0 +1,349 @@
+.cart-title-pag{
+    margin: 20px;
+    h1{
+        font-family: "Futura extrabold condensed";
+        font-size: 30px;
+    }
+    p{
+        font-size: 17px;
+        margin-left: 10px;
+    }
+}
+.main-cart{
+    p{
+        font-family: 'Roboto', sans-serif;
+    }
+}
+.container-main{
+    display: flex;
+    flex-wrap: wrap;
+    p{
+        font-family: 'Roboto', sans-serif;
+    }
+}
+.cart-card{
+    width: 100%;
+    margin: 5px 10px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-areas: "image text";
+    background-color: black;
+    color: white;
+}
+.airforceuno-cart{
+    width: 91%;
+    height: 89%;
+    margin: 10px;
+    grid-area: image;
+    justify-self: center;
+}
+.cart-text{
+    grid-area: text;
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    line-height: 30px;
+}
+.cart-text h5{
+    font-family: "Futura extrabold condensed";
+    font-size: 14px;
+    font-weight: 700;
+}
+.cart-remove{
+    position: absolute;
+    justify-self: flex-end;
+    width: 24px;
+    height: 24px;
+    margin: 5px;
+}
+.subtotal{
+    position: absolute;
+    justify-self: flex-end;
+    align-self: flex-end;
+    margin: 10px;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+}
+.amount-rectangle{
+    width: 63px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 20px);
+    border: 1px solid white;
+    text-align: center;
+    line-height: normal;
+}
+.amount-rectangle p{
+    font-size: 17px;
+    text-align: center;
+    border-left: 1px solid white;
+    border-right:1px solid white;
+}
+.amount{
+    width: 10px;
+    height: 10px;
+    justify-self: center;
+    align-self: center;
+}
+.purchase-summary{
+    margin: 10px;
+}
+.cart-purchase-summary{
+    margin: 5px 10px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 277px;
+    font-size: 25px;
+    line-height: 45px;
+}
+.cart-purchase-summary-title{
+    text-align: center;
+    font-size: 35px;
+}
+.envio-gratis{
+    font-size: 14px;
+}
+.order-summary{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+.free-shipping{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: normal;
+}
+.delivery{
+    width: 22px;
+    height: 22px;
+    margin-left: 5px;
+}
+.apply{
+    width: 55px;
+    height: 55px;
+    background: transparent;
+    border: 1px solid white;
+    padding: 10px;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.discount{
+    display: flex;
+    gap: 5px;
+}
+.discount-input{
+    background: transparent;
+    border: 1px solid white;
+    width: 73%;
+    height: 55px;
+    color: white;
+    font-family: "Futura extrabold condensed";
+    font-weight: bold;
+    font-size: 30px;
+    outline: none;
+    padding-left: 10px;
+}
+.discount-input::placeholder{
+    color: white;
+    font-family: "Futura extrabold condensed";
+    font-size: 100%;
+}
+.buy{
+    margin: 5px 10px;
+}
+.buy form label{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: black;
+    gap: 10px;
+    justify-content: center;
+}
+.comprar{
+    background: transparent;
+    color: white;
+    border: none;
+    font-family: "Futura extrabold condensed";
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.check-nike-buy{
+    width: 50px;
+    height: 50px;
+}
+.card-title{
+    font-size: 22px;
+    margin: 10px;
+    font-weight: 600;
+}
+.cards{
+    width: 97%;
+    margin: 10px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+.card-background{
+    background-color: black;
+    width: 135px;
+    height: 184px;
+    color: white;
+    text-align: center;
+}
+.card-background:hover{
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+}
+.card-image{
+    width: 119px;
+    height: 107px;
+    margin: 8px;
+}
+.price-card{
+    background-color: black;
+    color: white;
+    position: absolute;
+    text-align: center;
+    margin: 95px 0px 0 11px;
+    font-size: 14px;
+}
+.favorite-heart{
+    position: absolute;
+    width: 20px;
+    height: 20px;  
+    margin: 8px 0 0px 106px
+}
+.card-name{
+    font-size: 14px;
+}
+.airforce-lxxswarowski{
+    display: none;
+}
+.air-jordan-12-retro-playoffs{
+    display: none;
+}
+.air-huarache-liverpool{
+    display: none;
+}
+.nike-lebron-9-south-coast{
+    display: none;
+    p{
+        font-size: 13px;
+    }
+}
+.air-jordan-3-retro-cardinalred{
+    display: none;
+    p{
+    font-size: 13px;
+    }
+}
+/*565px*/
+@media (max-width: 565px){
+    .air-jordan-13{
+        display: none;
+    }
+    .discount-input::placeholder{
+        font-size: 80%;
+    }
+}
+/*712px*/
+@media (min-width:712px){
+    .airforce-lxxswarowski{
+        display: initial;
+    }
+}
+/*850px*/
+@media (min-width: 850px){
+    .air-jordan-12-retro-playoffs{
+        display: initial;
+    }
+}
+/*986px*/
+@media (min-width: 986px){
+    .air-huarache-liverpool{
+        display: initial;
+    }
+}
+/*992px*/
+@media (min-width: 992px){
+    .container-main{
+        flex-wrap: nowrap;    
+    }
+    .cart-card{
+        height: 210px;
+        width: 555px;
+    }
+    .cart-purchase-summary{
+        width: 555px;
+    }
+    .subtotal{
+        font-size: 21px;
+    }
+    .discount-input{
+        font-size: 100%;
+    }
+    .buy form label{
+        width: 49%;
+    }
+    .form-buy{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .air-jordan-3-retro-cardinalred{
+        display: none;
+    }
+    .air-huarache-liverpool .card-name{
+        font-size: 13px;
+    }
+    .airforce-lxxswarowski{
+        display: initial;
+    }
+    .air-jordan-12-retro-playoffs{
+        display: initial;
+    }
+    .air-huarache-liverpool{
+        display: initial;
+    }
+}
+/*1135*/
+@media (min-width:1135px){
+    .nike-lebron-9-south-coast{
+        display: initial;
+}
+}
+/*1150px*/
+@media (min-width:1150px){
+    .cart-card{
+        height: 100%;
+        width: 100%;
+    }
+    .cart-purchase-summary{
+        width: 74%;
+    }
+    .buy form label{
+        width: 42%;
+    }
+    .discount-input{
+        width: 88%;
+    }
+}
+@media (min-width: 1274px){
+    .air-jordan-3-retro-cardinalred {
+        display: initial;
+}
+}
+@media (max-width: 421px){
+    .discount-input{
+        font-size: 22px;
+    }
+}
+@media (max-width: 421px){
+    .airforce-ourforce{
+        display: none;
+    }
+}

@@ -1,0 +1,51 @@
+.main-index{
+    font-family: 'Roboto', sans-serif;
+    h1{
+        text-align: center;
+        font-family: "Futura extrabold condensed";
+        font-size: 45px;
+    }
+    
+}
+.airforce-uno{
+    background-image: url("../../assets/img/principal.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(2,20%);
+    grid-template-rows: repeat(2,50%);
+    justify-content: space-between;
+    justify-items: stretch;
+    img{
+        width: 100%;
+    }
+    @media (min-width:992px){
+        grid-template-columns: repeat(2,155px);
+        grid-template-rows: repeat(2,155px);
+        img{
+            width: 155px;
+        }
+    }
+}
+.airforce-uno-text{
+    color: black;
+    margin: 15px;
+    h2{
+        font-family: "Futura extrabold condensed";
+        text-align: center;
+        font-size: 45px;
+    }
+    p{
+        text-align: center;
+        font-size: 25px;
+    }
+    @media (min-width:992px){
+        h2{
+            font-size: 60px;
+        }
+        p{
+            font-size: 35px;
+        }
+    }
+}
