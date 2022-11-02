@@ -1,0 +1,63 @@
+.main-user{
+    font-family: 'Roboto', sans-serif;
+}
+.title-user h1{
+    font-family: "Futura extrabold condensed";
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+}
+.user-profile{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.rectangle-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 300px;
+}
+.rectangle-black{
+    background-color: black;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    height: 60px;
+    display: grid;
+    align-content: center;
+    cursor: pointer;
+}
+.rectangle-black p{
+    margin: 0;
+    text-align: center;
+}
+.content{
+    margin: 16px 50px;
+    font-size: 25px;
+}
+.tu-perfil-background{
+    background-color: black;
+    display: flex;
+    color: white;
+    width: 65%;
+    display: none;
+}
+.account-flex{
+    display: flex;
+    gap: 300px;
+}
+.account-flex:last-child{
+    gap: 270px;
+}
+.account-flex:nth-child(2){
+    flex-direction: column;
+    gap: 0;
+}
+@media (min-width:992px){
+    .tu-perfil-background{
+        display: initial;
+    }
+}

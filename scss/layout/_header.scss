@@ -7,9 +7,57 @@ header{
         margin: 10px;
     }
 }
-.menu img{
-    width: 30px;
-    height: 30px;
+nav{
+    --state-close: scale(0);
+    --state-hamburger: scale(1);
+    --state-menu: translate(-100%);
+    margin: 10px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2,1fr);
+    ul{
+        background-color: black;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 17rem;
+        display: grid;
+        gap: 50px;
+        align-content: center;
+        justify-content: center;
+        align-items: start;
+        transform: var(--state-menu);
+        transition: .3s transform;
+    } 
+    li{
+        a{
+            font-size: 20px;
+            color: white;
+        }
+        a:hover{
+            border-bottom: 3px solid white;
+            transition: .5 right;
+            cursor: pointer;
+        }
+    }
+}
+nav:target{
+    --state-menu: translate(0);
+    --state-close: scale(1);
+    --state-hamburger: scale(0);
+
+}
+.nav-hamburger, .nav-hamburger-close{
+    grid-column: -2/1;
+    grid-row: 1/2;
+    transition: .4s transform;
+}
+.nav-hamburger{
+    transform: var(--state-hamburger);
+}
+.nav-hamburger-close{
+    transform: var(--state-close);
 }
 .nike-logo-header{
     position: absolute;
@@ -33,13 +81,13 @@ header{
         gap: 3px;
     }
     img{
-        width: 2rem;
+        width: 80%;
         height: 2rem;
     }
     p{
         display: none;
         color: white;
-        font-size: 14px;
+        font-size: 12px;
     }
     div{
         margin: 0;
@@ -87,6 +135,9 @@ header{
         align-items: center;
         flex-wrap: nowrap;
         justify-content: space-around;
+        nav ul{
+            width: 25%;
+        }
         .nike-logo-header{
             margin: 0;
             position: initial;
@@ -114,6 +165,11 @@ header{
     }
 }
 }
+}
+@media (min-width:1059px){
+    user-interaction-header div a p{
+        font-size: 14px;
+    }
 }
 @media (min-width:1200px){
     .user-interaction-header {
