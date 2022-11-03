@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@font-face {
+  font-family: "Futura-extrabold-condensed";
+  src: url("../../assets/font/Futura-Extra-Black-Condensed-Regular.otf"); }
+
+@font-face {
+  font-family: "Futura-bold";
+  src: url("../../assets/font/Futura-Bold.ttf"); }
+
 * {
   margin: 0;
   padding: 0;
@@ -12,14 +20,6 @@ body {
 .icon {
   width: 20px;
   height: 20px; }
-
-@font-face {
-  font-family: "Futura extrabold condensed";
-  src: url("../../assets/font/Futura Extra Black Condensed Regular.otf"); }
-
-@font-face {
-  font-family: "Futura bold";
-  src: url("../../assets/font/Futura Bold font.ttf"); }
 
 header {
   background-color: black;
@@ -121,7 +121,7 @@ nav:target {
   .search input::placeholder {
     font-size: 20px;
     color: black;
-    font-family: "Futura extrabold condensed"; }
+    font-family: "Futura-extrabold-condensed"; }
   .search button {
     border: none;
     position: absolute;
@@ -195,7 +195,7 @@ footer {
 
 .just-do-it {
   text-align: center;
-  font-family: "Futura extrabold condensed";
+  font-family: "Futura-extrabold-condensed";
   font-size: 110px; }
 
 .redes ul {
@@ -232,7 +232,7 @@ footer {
   font-family: 'Roboto', sans-serif; }
   .main-index h1 {
     text-align: center;
-    font-family: "Futura extrabold condensed";
+    font-family: "Futura-extrabold-condensed";
     font-size: 45px; }
 
 .airforce-uno {
@@ -258,7 +258,7 @@ footer {
   color: black;
   margin: 15px; }
   .airforce-uno-text h2 {
-    font-family: "Futura extrabold condensed";
+    font-family: "Futura-extrabold-condensed";
     text-align: center;
     font-size: 45px; }
   .airforce-uno-text p {
@@ -273,7 +273,7 @@ footer {
 .cart-title-pag {
   margin: 20px; }
   .cart-title-pag h1 {
-    font-family: "Futura extrabold condensed";
+    font-family: "Futura-extrabold-condensed";
     font-size: 30px; }
   .cart-title-pag p {
     font-size: 17px;
@@ -312,7 +312,7 @@ footer {
   line-height: 30px; }
 
 .cart-text h5 {
-  font-family: "Futura extrabold condensed";
+  font-family: "Futura-extrabold-condensed";
   font-size: 14px;
   font-weight: 700; }
 
@@ -407,7 +407,7 @@ footer {
   width: 73%;
   height: 55px;
   color: white;
-  font-family: "Futura extrabold condensed";
+  font-family: "Futura-extrabold-condensed";
   font-weight: bold;
   font-size: 30px;
   outline: none;
@@ -415,7 +415,7 @@ footer {
 
 .discount-input::placeholder {
   color: white;
-  font-family: "Futura extrabold condensed";
+  font-family: "Futura-extrabold-condensed";
   font-size: 100%; }
 
 .buy {
@@ -433,7 +433,7 @@ footer {
   background: transparent;
   color: white;
   border: none;
-  font-family: "Futura extrabold condensed";
+  font-family: "Futura-extrabold-condensed";
   padding-left: 10px;
   font-weight: bold;
   font-size: 30px; }
@@ -536,6 +536,8 @@ footer {
     width: 555px; }
   .cart-purchase-summary {
     width: 555px; }
+  .cart-text h5 {
+    font-size: 15px; }
   .subtotal {
     font-size: 21px; }
   .discount-input {
@@ -684,7 +686,7 @@ footer {
   align-items: center; }
 
 .add-cart-text {
-  font-family: "Futura extrabold condensed";
+  font-family: "Futura-extrabold-condensed";
   padding: 10px;
   font-size: 35px; }
 
@@ -742,7 +744,7 @@ footer {
   margin: 35px 35px 10px 35px; }
 
 .favorite-title-pag h1 {
-  font-family: "Futura extrabold condensed";
+  font-family: "Futura-extrabold-condensed";
   color: black;
   margin: 0; }
 
@@ -795,7 +797,7 @@ footer {
   font-family: 'Roboto', sans-serif; }
 
 .title-user h1 {
-  font-family: "Futura extrabold condensed";
+  font-family: "Futura-extrabold-condensed";
   color: black;
   font-size: 60px;
   text-align: center;

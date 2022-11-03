@@ -1,7 +1,7 @@
 .cart-title-pag{
     margin: 20px;
     h1{
-        font-family: "Futura extrabold condensed";
+        font-family: "Futura-extrabold-condensed";
         font-size: 30px;
     }
     p{
@@ -45,7 +45,7 @@
     line-height: 30px;
 }
 .cart-text h5{
-    font-family: "Futura extrabold condensed";
+    font-family: "Futura-extrabold-condensed";
     font-size: 14px;
     font-weight: 700;
 }
@@ -141,7 +141,7 @@
     width: 73%;
     height: 55px;
     color: white;
-    font-family: "Futura extrabold condensed";
+    font-family: "Futura-extrabold-condensed";
     font-weight: bold;
     font-size: 30px;
     outline: none;
@@ -149,7 +149,7 @@
 }
 .discount-input::placeholder{
     color: white;
-    font-family: "Futura extrabold condensed";
+    font-family: "Futura-extrabold-condensed";
     font-size: 100%;
 }
 .buy{
@@ -167,7 +167,7 @@
     background: transparent;
     color: white;
     border: none;
-    font-family: "Futura extrabold condensed";
+    font-family: "Futura-extrabold-condensed";
     padding-left: 10px;
     font-weight: bold;
     font-size: 30px;
@@ -279,6 +279,9 @@
     }
     .cart-purchase-summary{
         width: 555px;
+    }
+    .cart-text h5{
+        font-size: 15px;
     }
     .subtotal{
         font-size: 21px;
